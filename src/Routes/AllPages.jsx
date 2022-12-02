@@ -10,7 +10,7 @@ export default function AllPages() {
     <NavigationContainer>
       <Stack.Navigator
         screenOption={{
-          headerShow: false,
+          headerShown: false,
         }}
       >
         <Stack.Screen name="Start" component={Start} />
